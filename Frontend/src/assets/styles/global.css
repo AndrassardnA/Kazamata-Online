@@ -1,0 +1,10 @@
+@import './constants/font-constants.css';
+@import './constants/color-constants.css';
+*{
+  box-sizing: border-box;
+  font-family: "Cinzel Decorative";
+}
+#root, body{
+  width: 100%;
+  margin: 0;
+}

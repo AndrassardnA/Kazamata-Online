@@ -1,0 +1,13 @@
+footer{
+    background-color: grey;
+    display: flex;
+}
+footer>*{
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}

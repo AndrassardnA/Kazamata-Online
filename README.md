@@ -3,8 +3,8 @@
 
 A **Kazamata Online** egy **nyílt forráskódú** projekt ami a **kalandjáték-könyvek** világát viszi át **webes** felületre. A projekt célja, hogy lehetőséget adjon mind **kalandok írására**, mind **végigjátszására**.
 
-## Legfrissebb Verzió v0.1.2
-**Állapot:** Frontend Inicializálás
+## Legfrissebb Verzió v0.2.0
+**Állapot:** ADD alap layout design és homepage design
 
 ## Célkitűzés
 A weboldal lehetőséget nyújt más felhasználók által létrehozott kalandok végigjátszására és értékelésére. Biztosítja a rendszert amivel egy kaland végigjátszható, és a rendszert amivel a kalandok létrehozhatók. Lehetőséget ad írói profil létrehozására és más profilok értékelésére.
@@ -48,9 +48,9 @@ A **Kazamata Online** egy hobbi projekt.
 
 **Dungeon Online** is an **open-source** project that brings the world of **gamebooks** to a **web-based** platform. The project aims to provide an opportunity for both **writing** and **playing** adventures.
 
-## Latest Version v0.1.2
+## Latest Version v0.2.0
 
-**Status:** Frontend Initialization
+**Status:** ADD basic layout design and homepage design
 
 ## Objective
 

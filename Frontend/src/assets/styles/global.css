@@ -3,6 +3,7 @@
 *{
   box-sizing: border-box;
   font-family: "Cinzel Decorative";
+  color: white;
 }
 #root, body{
   width: 100%;

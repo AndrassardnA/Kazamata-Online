@@ -1,16 +1,35 @@
 nav {
     display: flex;
+    background-color: rgb(70, 70, 70);
 }
 
 nav>* {
-    text-decoration: none;
     flex: 1;
+}
+
+.arr-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.arr-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.arr-left>*,
+.arr-right>* {
+    text-decoration: none;
     background-color: rgb(70, 70, 70);
     text-align: center;
     color: white;
     padding: 10px;
     transition: all 0.3s ease-in-out;
 }
-nav>*:hover{
+
+.arr-left>*:hover,
+.arr-right>*:hover {
     background-color: rgb(50, 50, 50);
 }

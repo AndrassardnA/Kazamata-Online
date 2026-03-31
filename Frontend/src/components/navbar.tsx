@@ -5,17 +5,24 @@ function Navbar() {
     if (location.pathname === "/login" || location.pathname === "/register") {
         return (
             <nav>
-                <NavLink to="/">Home</NavLink>
-                <NavLink to="about">About us</NavLink>
+                <div className='arr-left'>
+                    <NavLink to="/">Home</NavLink>
+                    <NavLink to="about">About us</NavLink>
+                </div>
+
             </nav>
         );
     }
     return (
         <nav>
-            <NavLink to="/">Home</NavLink>
-            <NavLink to="about">About us</NavLink>
-            <NavLink to="login">Log in</NavLink>
-            <NavLink to="register">Register</NavLink>
+            <div className='arr-left'>
+                <NavLink to="/">Home</NavLink>
+                <NavLink to="about">About us</NavLink>
+            </div>
+            <div className='arr-right'>
+                <NavLink to="login">Log in</NavLink>
+                <NavLink to="register">Register</NavLink>
+            </div>
         </nav>
     );
 }

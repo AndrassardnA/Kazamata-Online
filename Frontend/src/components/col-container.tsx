@@ -10,14 +10,14 @@ type Props = {
 function ColContainer(value: Props) {
     return (
         <Link to={'/'} className="column-container" style={{ textDecoration: 'none' }}>
-            <div id='blur-cont'>
-                <img src={value.imageSrc} alt="kep" />
-                <div id='col-title'>
+            <div className='blur-cont'>
+                <img className="bg-img" src={value.imageSrc} alt="kep" />
+                <div className='col-title'>
                     <img id='icon' src={value.icoSrc} alt="icon" />
                     <div>{value.title}</div>
                 </div>
             </div>
-            <div id='hover-text'>{value.actionStr}</div>
+            <div className='hover-text'>{value.actionStr}</div>
         </Link>
     )
 }

@@ -17,21 +17,21 @@ function Home() {
                 imageSrc={lila}
                 title="Learn Dungeon Online"
                 actionStr='LEARN'
-                destination='/'
+                destination='/learn'
             />
             <ColContainer
                 icoSrc={swordIco}
                 imageSrc={lila}
                 title="Venture through storys"
                 actionStr='PLAY'
-                destination='/'
+                destination='/play'
             />
             <ColContainer
                 icoSrc={writeIco}
                 imageSrc={lila}
                 title="Write your own adventure"
                 actionStr='WRITE'
-                destination='/'
+                destination='/write'
             />
         </div>
 

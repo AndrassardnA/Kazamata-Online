@@ -6,6 +6,9 @@ import About from './pages/about';
 import Login from './pages/auth/login';
 import Register from './pages/auth/register';
 import NotFound from './pages/not-found';
+import LearnHome from './pages/learn/learn-home';
+import AdventureList from './pages/play/adventure-list';
+import WriteHome from './pages/write/write-home';
 
 function App() {
   return (
@@ -14,6 +17,9 @@ function App() {
         <Route path='/' element={<MainLayout />}>
           <Route index element={<Home />}></Route>
           <Route path='about' element={<About />}></Route>
+          <Route path='learn' element={<LearnHome />}></Route>
+          <Route path='play' element={<AdventureList />}></Route>
+          <Route path='write' element={<WriteHome />}></Route>
         </Route>
         <Route element={<AuthLayout />}>
           <Route path='login' element={<Login />}></Route>

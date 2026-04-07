@@ -9,7 +9,7 @@ type Props = {
 
 function ColContainer(value: Props) {
     return (
-        <Link to={'/'} className="column-container" style={{ textDecoration: 'none' }}>
+        <Link to={value.destination} className="column-container" style={{ textDecoration: 'none' }}>
             <div className='blur-cont'>
                 <img className="bg-img" src={value.imageSrc} alt="kep" />
                 <div className='col-title'>
